@@ -1,0 +1,17 @@
+header{
+    background-color: #c4b287;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: auto;
+    height: 120px;
+}
+
+.barra{
+    margin-right: 30px;
+}
