@@ -6,13 +6,19 @@ export default function index() {
         <nav>
             <ul className='menu'>
                 <li>
-                    Home
+                    <Link to="/">
+                        Home
+                    </Link>
                 </li>
                 <li>
-                    Sobre
+                    <Link to="/sobre">
+                        Sobre
+                    </Link>
                 </li>
                 <li>
-                    Cadastro
+                    <Link to="/cadastro">
+                        Cadastro
+                    </Link>
                 </li>
                 <li>
                     Alunos
