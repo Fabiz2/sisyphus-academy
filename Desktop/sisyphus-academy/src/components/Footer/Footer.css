@@ -1,0 +1,18 @@
+.footer {
+  background-color: #d8c28f;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.section-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+footer img {
+  height: 5%;
+  width: 5%;
+}

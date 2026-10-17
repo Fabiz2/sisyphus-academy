@@ -8,4 +8,30 @@
 
 .menu li {
     margin: 0 15px;
+    position: relative;
+}
+
+.menu li:hover {
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu li::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+.menu li:hover::before {
+    transform: scale(1, 1);
 }
