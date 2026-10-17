@@ -6,8 +6,12 @@
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     font-family: "Caesar Dressing", system-ui;
+    color: #3b2f1e;
 }
 
+body{
+    background-color: #f4ecd8;
+}
 .container {
     max-width: 1000px;
     margin: 0 auto;
