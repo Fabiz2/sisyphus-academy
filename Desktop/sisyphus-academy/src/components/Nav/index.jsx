@@ -20,10 +20,10 @@ export default function index() {
                         Cadastro
                     </Link>
                 </li>
-                <li>
+                <li to="/alunos">
                     Alunos
                 </li>
-                <li>
+                <li to="/maquinas">
                     Maquinas
                 </li>
             </ul>
