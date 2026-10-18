@@ -1,5 +1,14 @@
 {
   "alunos": [],
-  "maquinas": [],
+  "maquinas": [
+    {
+      "nome": "supino",
+      "grupo": "Peito",
+      "descricao": "supino",
+      "quantidade": "1",
+      "imagem": "https://static.strengthlevel.com/images/exercises/bench-press/bench-press-800.jpg",
+      "id": "0T0W7JIzOpM"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

@@ -90,6 +90,77 @@ main {
     font-size: 15px;
 }
 
+.numeros {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px 20px;
+}
+
+.numero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numero strong {
+    font-size: 56px;
+    color: #c4772d;
+}
+
+.numero span {
+    font-size: 18px;
+    color: #1b2a49;
+}
+
+.maquinas-destaque {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.maquinas-destaque h2 {
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+.maquinas-destaque .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.maquinas-destaque .link-cadastro {
+    display: inline-block;
+    margin-top: 32px;
+}
+
+.chamada-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.chamada-friso {
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin-bottom: 30px;
+    background-color: #c4772d;
+    margin-bottom: 10px;
+}
+
+.chamada-final h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.chamada-final p {
+    font-size: 20px;
+}
+
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;

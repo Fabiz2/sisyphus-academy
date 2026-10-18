@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import "./Home.css"
 import imgSisifo from "../../assets/images/sisifo-imagem-fundo-hero.png"
 import Card from '../../components/Card'
+import { useState, useEffect } from 'react'
+import CardMaquina from '../../components/Card-Maquina'
 
 const diferenciais = [
   { id: 1, titulo: 'Equipamentos modernos', texto: 'Máquinas novas e bem cuidadas.' },
@@ -11,6 +13,21 @@ const diferenciais = [
 ];
 
 export default function index() {
+  const [maquinas, setMaquinas] = useState([])
+  const [alunos, setAlunos] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:3000/maquinas")
+      .then((res) => res.json())
+      .then((data) => setMaquinas(data))
+      .catch(() => setMaquinas([]))
+
+    fetch("http://localhost:3000/alunos")
+      .then((res) => res.json())
+      .then((data) => setAlunos(data))
+      .catch(() => setAlunos([]))
+  }, [])
+
   return (
     <main>
       <section className="hero">
@@ -42,6 +59,35 @@ export default function index() {
             </Card>
           ))}
         </div>
+      </section>
+
+      <section className="numeros">
+        <div className="numero">
+          <strong>{alunos.length}</strong>
+          <span>Alunos matriculados</span>
+        </div>
+        <div className="numero">
+          <strong>{maquinas.length}</strong>
+          <span>Máquinas disponíveis</span>
+        </div>
+      </section>
+
+      <section className="maquinas-destaque">
+        <h2>Nossas máquinas</h2>
+
+        <div className="cards">
+          {maquinas.slice(0, 3).map((m) => (
+            <CardMaquina key={m.id} {...m} />
+          ))}
+        </div>
+
+        <Link to="/maquinas" className="link-cadastro">Ver todas</Link>
+      </section>
+
+      <section className="chamada-final">
+        <span className="chamada-friso"></span>
+        <h2>Sua pedra não vai se empurrar sozinha</h2>
+        <p>"É preciso imaginar Sísifo feliz." — Albert Camus</p>
       </section>
     </main>
   )
