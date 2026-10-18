@@ -20,6 +20,14 @@
       "quantidade": "1",
       "imagem": "https://meutreinador.com/wp-content/uploads/2023/11/03_Supino-Reto.jpg",
       "id": "NLzComsfGyo"
+    },
+    {
+      "nome": "supino articulado",
+      "grupo": "Peito",
+      "descricao": "O supino articulado é uma máquina de musculação projetada para o fortalecimento do peitoral, ombros (deltoides) e tríceps. Sua principal característica é o uso de braços ou alavancas móveis independentes, permitindo que cada lado do corpo empurre o peso de forma separada.",
+      "quantidade": "1",
+      "imagem": "https://totalhealth.com.br/uploads/pagina/pagina/2024/09/vTAcHdR4pzukpm0y/430rxs-listagem_345x365.jpg",
+      "id": "3dOghVbdGx8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
