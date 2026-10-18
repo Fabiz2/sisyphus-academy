@@ -2,7 +2,7 @@
 
 Aplicação web para gestão de alunos e equipamentos de uma academia.
 
-**Aplicação publicada:** [sisyphus-academy.vercel.app](https://sisyphus-academy.vercel.app/)
+**Aplicação publicada:** <a href="https://sisyphus-academy.vercel.app/" target="_blank" rel="noopener noreferrer">sisyphus-academy.vercel.app</a>
 
 O projeto permite consultar e cadastrar alunos e máquinas, além de remover registros. Sua identidade visual usa a metáfora de Sísifo para representar a disciplina e a constância nos treinos.
 
