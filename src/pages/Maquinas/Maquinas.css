@@ -33,3 +33,26 @@
     border: 2px solid #3b2f1e;
     border-radius: 5px;
 }
+
+.maquinas-aviso {
+    font-size: 20px;
+    color: #1b2a49;
+    margin-bottom: 20px;
+}
+
+.maquinas-botao {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 24px;
+    color: #dab27b;
+    background-color: #1b2a49;
+    border: 2px solid #1b2a49;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.maquinas-botao:hover {
+    background-color: #c4772d;
+    color: #fff8e7;
+    border-color: #c4772d;
+}

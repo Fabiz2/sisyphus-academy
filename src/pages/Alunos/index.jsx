@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Alunos.css'
+import Card from '../../components/Card'
 
 export default function Alunos() {
     const [alunos, setAlunos] = useState([])
@@ -58,12 +59,12 @@ export default function Alunos() {
 
             <div className="alunos-lista">
                 {alunos.map((aluno) => (
-                    <div key={aluno.id} className="card-aluno">
+                    <Card key={aluno.id}>
                         <h3>{aluno.nome}</h3>
                         <p>{aluno.telefone}</p>
                         <p>{aluno.email}</p>
-                        <button onClick={() => handleDelete(aluno.id)}>Excluir</button>
-                    </div>
+                        <button onClick={() => handleDelete(aluno.id)} className="alunos-botao">Excluir</button>
+                    </Card>
                 ))}
             </div>
         </main>

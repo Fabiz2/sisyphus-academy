@@ -1,0 +1,39 @@
+.maquinas {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.maquinas h1 {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.maquinas-aviso {
+    font-size: 20px;
+    color: #1b2a49;
+    margin-bottom: 20px;
+}
+
+.maquinas-lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.btn-excluir {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 24px;
+    color: #dab27b;
+    background-color: #1b2a49;
+    border: 2px solid #3b2f1e;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.btn-excluir:hover {
+    background-color: #c4772d;
+    color: #fff8e7;
+    border-color: #c4772d;
+}

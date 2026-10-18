@@ -24,8 +24,9 @@ main {
 
 .link-cadastro {
     font-size: 20px;
-    color: #3b2f1e;
-    background-color: #d9c28f;
+    color: #dab27b;
+    background-color: #1b2a49;
+    border: 2px solid #1b2a49;
     text-decoration: none;
     border: 2px solid #3b2f1e;
     padding: 14px 36px;

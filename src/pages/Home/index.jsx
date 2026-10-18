@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Home.css"
 import imgSisifo from "../../assets/images/sisifo-imagem-fundo-hero.png"
+import Card from '../../components/Card'
 
 const diferenciais = [
   { id: 1, titulo: 'Equipamentos modernos', texto: 'Máquinas novas e bem cuidadas.' },
@@ -35,10 +36,10 @@ export default function index() {
         <h2>Por que a Sisyphus Academy?</h2>
         <div className="cards">
           {diferenciais.map((item) => (
-            <div key={item.id} className="card">
+            <Card key={item.id}>
               <h3>{item.titulo}</h3>
               <p>{item.texto}</p>
-            </div>
+            </Card>
           ))}
         </div>
       </section>

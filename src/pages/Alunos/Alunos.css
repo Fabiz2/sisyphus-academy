@@ -53,17 +53,12 @@
     transition: all 0.3s;
 }
 
-.card-aluno button:hover {
-    background-color: #a63a1d;
-    border-color: #a63a1d;
-}
-
 .alunos-botao {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 24px;
-    color: #3b2f1e;
-    background-color: #d9c28f;
+    color: #dab27b;
+    background-color: #1b2a49;
     border: 2px solid #3b2f1e;
     border-radius: 5px;
     transition: all 0.3s;
