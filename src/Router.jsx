@@ -7,6 +7,7 @@ import CadastroUsuario from './pages/Cadastro-Usuarios'
 import CadastroMaquina from './pages/Cadastro-Maquinas'
 import Maquinas from './pages/Maquinas'
 import Alunos from './pages/Alunos'
+import Sobre from './pages/Sobre'
 
 
 export default function Router() {
@@ -21,6 +22,7 @@ export default function Router() {
                 <Route path="/cadastro/maquina" element={<CadastroMaquina />} />
                 <Route path="/maquinas" element={<Maquinas/>}/>
                 <Route path="/alunos" element={<Alunos/>}/>
+                <Route path="/sobre" element={<Sobre/>}/>
             </Routes>
         </BrowserRouter>
     )
