@@ -20,11 +20,15 @@ export default function index() {
                         Cadastro
                     </Link>
                 </li>
-                <li to="/alunos">
-                    Alunos
+                <li>
+                    <Link to="/alunos">
+                        Alunos
+                    </Link>
                 </li>
-                <li to="/maquinas">
-                    Maquinas
+                <li>
+                    <Link to="/maquinas">
+                        Maquinas
+                    </Link>
                 </li>
             </ul>
         </nav>

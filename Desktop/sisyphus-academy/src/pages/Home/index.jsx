@@ -26,7 +26,7 @@ export default function index() {
 
         <div className="hero-button">
           <Link to="/cadastro" className="link-cadastro">
-            Matricule-se
+            Cadastrar
           </Link>
         </div>
       </section>

@@ -4,8 +4,8 @@ import './Cadastro.css'
 export default function Cadastro() {
   return (
     <main className="cadastro-escolha">
-      <Link to="/cadastro/usuario" className="opcao">
-        <h2>Usuário</h2>
+      <Link to="/cadastro/aluno" className="opcao">
+        <h2>Aluno</h2>
         <p>Cadastrar um novo aluno</p>
       </Link>
 

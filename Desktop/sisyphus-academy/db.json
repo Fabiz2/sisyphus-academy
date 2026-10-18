@@ -1,0 +1,26 @@
+{
+  "alunos": [
+    {
+      "nome": "Fabricio",
+      "telefone": "11911112222",
+      "email": "fabricio@email.com",
+      "id": "-Yr2W34P028"
+    },
+    {
+      "nome": "julia",
+      "telefone": "11988676674",
+      "email": "fabricio@email.com",
+      "id": "L3aojAmIDSY"
+    }
+  ],
+  "maquinas": [
+    {
+      "nome": "supino",
+      "grupo": "Peito",
+      "quantidade": "1",
+      "imagem": "https://meutreinador.com/wp-content/uploads/2023/11/03_Supino-Reto.jpg",
+      "id": "NLzComsfGyo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,82 @@
+.container-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.container-cadastro h1 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.voltar {
+    align-self: flex-start;
+    color: #1b2a49;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.voltar:hover {
+    color: #c4772d;
+}
+
+.container-cadastro form {
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    background-color: #d9c28f;
+    border: 2px solid #3b2f1e;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0 #c4772d;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 18px;
+}
+
+.form-control input,
+.form-control select {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f4ecd8;
+    border: 2px solid #3b2f1e;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-control input:focus,
+.form-control select:focus {
+    border-color: #c4772d;
+}
+
+.container-cadastro button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #3b2f1e;
+    color: #f4ecd8;
+    border: 2px solid #3b2f1e;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container-cadastro button:hover {
+    background-color: #c4772d;
+    border-color: #c4772d;
+}
+
+.form-control textarea {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f4ecd8;
+    border: 2px solid #3b2f1e;
+    border-radius: 5px;
+    outline: none;
+    resize: vertical;
+}
