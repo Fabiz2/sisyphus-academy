@@ -1,5 +1,7 @@
 # Sisyphus Academy
 
+[Acesse o site](https://sisyphus-academy.vercel.app/)
+
 Painel web para organizar informações de uma academia. A aplicação permite consultar e cadastrar alunos e máquinas, além de remover registros. A interface usa a metáfora de Sísifo para representar a disciplina e a constância nos treinos.
 
 ## Funcionalidades
