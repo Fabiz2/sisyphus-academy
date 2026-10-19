@@ -9,7 +9,7 @@ export default function Maquinas() {
     const [erro, setErro] = useState(false)
 
     useEffect(() => {
-        fetch("http://localhost:3000/maquinas")
+        fetch("https://6ad5fb9df71f154ac4864660.mockapi.io/maquinas")
             .then((response) => {
                 if (!response.ok) {
                     throw new Error("Falha ao buscar máquinas")
@@ -26,7 +26,7 @@ export default function Maquinas() {
             return
         }
 
-        fetch(`http://localhost:3000/maquinas/${id}`, {
+        fetch(`https://6ad5fb9df71f154ac4864660.mockapi.io/maquinas/${id}`, {
             method: "DELETE"
         })
             .then((response) => {

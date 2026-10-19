@@ -27,7 +27,7 @@ export default function CadastroUsuario() {
             return
         }
 
-        fetch("http://localhost:3000/alunos", {
+        fetch("https://6ad5fb9df71f154ac4864660.mockapi.io/alunos", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

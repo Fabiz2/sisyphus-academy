@@ -29,7 +29,7 @@ export default function CadastroMaquina() {
             return
         }
 
-        fetch("http://localhost:3000/maquinas", {
+        fetch(" https://6ad5fb9df71f154ac4864660.mockapi.io/maquinas", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
