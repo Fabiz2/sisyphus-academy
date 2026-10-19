@@ -17,12 +17,12 @@ export default function index() {
   const [alunos, setAlunos] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3000/maquinas")
+    fetch("https://6ad5fb9df71f154ac4864660.mockapi.io/maquinas")
       .then((res) => res.json())
       .then((data) => setMaquinas(data))
       .catch(() => setMaquinas([]))
 
-    fetch("http://localhost:3000/alunos")
+    fetch("https://6ad5fb9df71f154ac4864660.mockapi.io/alunos")
       .then((res) => res.json())
       .then((data) => setAlunos(data))
       .catch(() => setAlunos([]))
